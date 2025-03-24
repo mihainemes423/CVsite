@@ -1,37 +1,41 @@
-.footer-section {
+.body-section {
     width: 100%;
     padding: 40px 0;
-    background-color: #f8f9fa; /* Culoare de fundal */
-    border-top: 1px solid #e0e0e0; /* Linie separatoare */
   }
   
-  .footer-content {
+  .body-content {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    justify-content: flex-start;
     margin: 0 auto;
     padding: 0 20px;
-    gap: 40px; /* Spațiu între imagine și text */
+    gap: 150px; /* Spațiu între imagine și text */
   }
   
-  .footer-image {
-    width: 30px;
+  .body-image {
+    width: 700px;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
   }
   
-  .footer-text {
+  .body-text {
     flex: 1;
+    font-size: 2.7rem;
+    margin-left: auto;
   }
   
+  .body-text p {
+    font-size: 2rem;
+    
+  }
   /* Pentru ecrane mici */
   @media (max-width: 768px) {
-    .footer-content {
+    .body-content {
       flex-direction: column;
     }
     
-    .footer-image {
+    .body-image {
       width: 100%;
       margin-bottom: 20px;
     }
