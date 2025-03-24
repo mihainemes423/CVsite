@@ -1,0 +1,38 @@
+.footer-section {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f8f9fa; /* Culoare de fundal */
+    border-top: 1px solid #e0e0e0; /* Linie separatoare */
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 40px; /* Spațiu între imagine și text */
+  }
+  
+  .footer-image {
+    width: 30px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .footer-text {
+    flex: 1;
+  }
+  
+  /* Pentru ecrane mici */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+    
+    .footer-image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
