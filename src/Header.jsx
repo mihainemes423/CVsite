@@ -20,7 +20,7 @@ export default function Header() {
           <li className="nav-item"><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      
+
       <button className="download-button">
         Download CV <span className="download-icon">⬇</span>
       </button>

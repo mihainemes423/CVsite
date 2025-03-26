@@ -1,0 +1,62 @@
+.body-section {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f8f9fa; /* Culoare de fundal */
+    border-top: 1px solid #e0e0e0; /* Linie separatoare */
+  }
+  
+  .body-details{
+    display: flex;
+    align-items: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 40px; /* Spațiu între imagine și text */
+  }
+
+  .body-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 40px; /* Spațiu între imagine și text */
+  }
+  
+  .body-image {
+    width: 30px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .body-text {
+    flex: 1;
+  }
+  
+  .github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Culoare fundal (negru pentru GitHub) */
+    color: white; /* Culoare text */
+    text-decoration: none; /* Elimină sublinierea */
+    border-radius: 5px; /* Colțuri rotunjite */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Animatie la hover */
+}
+
+.github-button:hover {
+    background-color: #555; /* Culoare la hover */
+}
+
+  /* Pentru ecrane mici */
+  @media (max-width: 768px) {
+    .body-content {
+      flex-direction: column;
+    }
+    
+    .body-image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
