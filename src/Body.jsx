@@ -19,15 +19,22 @@ export default function Body() {
             <p>Nume: Nemeș Mihail</p>
             <p>Oraș: CLuj-Napoca, Romania</p>
             <p>Email: nemesmihai423@gmail.com</p>
-            <p>Linkedin: https://www.linkedin.com/in/mihail-neme%C8%99-0291a0328/</p>
-            <p>Github: https://github.com/mihainemes423</p>
-            <a href="https://github.com/mihainemes423" target="_blank" class="github-button">Github</a>
-            <p>Github: https://github.com/mihainemes423</p>
-            <RedirectButton
-              url="https://github.com/mihainemes423"
-              text="Github"
-              
-            />
+            <div style={{ display: "flex", gap: "20px" }}>
+              <RedirectButton
+                url="https://www.linkedin.com/in/mihail-neme%C8%99-0291a0328/"
+                text="LinkedIn"
+                width="180px"
+                height="45px"
+                fontSize="1em"
+              />
+              <RedirectButton
+                url="https://github.com/mihainemes423"
+                text="Github"
+                width="135px"
+                height="45px"
+                fontSize="1em"
+              />
+            </div>
           </div>
         </div>
       </div>
