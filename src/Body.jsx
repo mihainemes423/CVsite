@@ -19,7 +19,7 @@ export default function Body() {
             <p>Nume: Nemeș Mihail</p>
             <p>Oraș: CLuj-Napoca, Romania</p>
             <p>Email: mihainemes423@gmail.com</p>
-            <div style={{display: "inline-flex", gap: "20px" }}>
+            <div style={{ display: "inline-flex", gap: "20px" }}>
               <RedirectButton
                 url="https://www.linkedin.com/in/mihail-neme%C8%99-0291a0328/"
                 text="LinkedIn"
