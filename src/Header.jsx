@@ -1,13 +1,13 @@
 import React from "react";
-import "./Header.css";
+import "../styles/Header.css";
 
 export default function Header() {
   return (
     <header className="header-container">
       <div className="header-logo">
-        <img src="/logo.png" alt="Logo" />
+        {/* <img src="/logo.png" alt="Logo" /> */}
         <h1 className="header-title">
-          Joé <span className="bold">Wilson</span>
+          Nemeș <span className="bold">Mihail</span>
         </h1>
       </div>
 
@@ -18,7 +18,6 @@ export default function Header() {
           <li className="nav-item"><a href="#">Resume</a></li>
           <li className="nav-item"><a href="#">Portfolio</a></li>
           <li className="nav-item"><a href="#">Contacts</a></li>
-          <li className="nav-item"><a href="#">Blog</a></li>
         </ul>
       </nav>
 
