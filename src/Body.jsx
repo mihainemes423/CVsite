@@ -12,7 +12,7 @@ export default function Body() {
             <h3>Curriculum vitae - Computer engineer</h3>
             <p>Salut, numele meu este Mihail Nemeș. Sunt student in anul I la UTCN Calculatoare și Tehnologia informației. Sunt un om dedidcat, profesional si ambitios in proiectele mele, indiferent de subiect.</p>
             <h3>Sumar profesional</h3>
-            <p>Student pasionat de dezvoltare full-stack, cu experiență în JavaScript, React și Node.js. În prezent, învăț baze de date și arhitectura backend pentru a dezvolta aplicații web moderne. Am lucrat la proiecte personale și academice și sunt dornic să îmi extind cunoștințele într-un mediu profesional.</p>
+            <p>Student pasionat de dezvoltare full-stack, cu experiență în JavaScript, React, Node.js și Flutter. În prezent, învăț baze de date și arhitectura backend pentru a dezvolta aplicații web moderne. Am lucrat la proiecte personale și academice și sunt dornic să îmi extind cunoștințele într-un mediu profesional.</p>
           </div>
         </div>
       </div>
