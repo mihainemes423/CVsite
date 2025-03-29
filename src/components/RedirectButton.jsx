@@ -3,37 +3,44 @@ import React from "react";
 const RedirectButton = ({ 
   url, 
   text, 
-  width,       // <- Nou prop pentru lățime
-  height,      // <- Nou prop pentru înălțime
-  fontSize,    // <- Nou prop pentru dimensiunea textului
-  borderColor = "white", // 👈 Valoare implicită albă
-  borderWidth = "2px"
+  width= "auto",
+  height= "auto",
+  fontSize= "16px",
+  borderColor = "white",
+  borderWidth = "2px",
+  borderStyle = "solid",
+  margin = "1px",
+  gap = "8px", 
   }) => {
-  const buttonStyle = {
-    display: "inline-flex",
-    gap: "16px",
-    alignItems: "center",     // Centrare verticală a textului
-    justifyContent: "center",
-    gap: "8px",
-    //border: "1px dashed #ccc",
-    padding: "15px 24px",
-    backgroundColor: "#2d3748",
-    color: "white",
-    textDecoration: "none",
-    borderRadius: "6px",
-    fontWeight: "bold",
-    transition: "background-color 0.3s ease",
-    cursor: "pointer",
-    width: width || "auto",         // Utilizează prop-ul `width` sau valoarea implicită
-    height: height || "auto",       // Utilizează prop-ul `height` sau valoarea implicită
-    fontSize: fontSize || "16px",   // Utilizează prop-ul `fontSize` sau valoarea implicită   
-  };
-
-  const hoverStyle = {
-    backgroundColor: "#4a5568",
-    transform: "translateY(-1px)", // Efect subtil de ridicare
-    boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
-  };
+    const buttonStyle = {
+      display: "inline-flex",
+      alignItems: "center",
+      justifyContent: "center",
+      padding: "12px 24px",
+      backgroundColor: "#2d3748",
+      color: "white",
+      border: `${borderWidth} ${borderStyle} ${borderColor}`,
+      borderRadius: "6px",
+      fontWeight: "bold",
+      cursor: "pointer",
+      width: width,
+      height: height,
+      fontSize: fontSize,
+      transition: "all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)",
+      transform: "translateY(0)",
+      boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+      willChange: "transform, box-shadow",
+      gap: gap,
+      margin: margin,
+      textDecoration: "none",
+    };
+  
+    const hoverStyle = {
+      transform: "translate3d(0, -3px, 0)",
+      boxShadow: "0 8px 16px rgba(255, 204, 0, 0.3)",
+      borderColor: "#ffcc00",
+      backgroundColor: "#3c4a5e" // Culoare mai deschisă la hover
+    };
 
   const [isHovered, setIsHovered] = React.useState(false);
 
