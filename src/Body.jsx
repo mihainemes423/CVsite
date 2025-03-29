@@ -10,12 +10,12 @@ export default function Body() {
           <img src="../Assets/first_image.jpg" alt="Descriere imagine" className="body-image" />
           <div className ="body-text-left">
             <h3>Curriculum vitae - Computer engineer</h3>
-            <p>Salut, numele meu este Mihail Nemeș. Sunt student in anul I la UTCN Calculatoare și Tehnologia informației. Sunt un om dedidcat, profesional si ambitios in proiectele mele, indiferent de subiect.</p>
+            <p>Salut, numele meu este Mihail Nemeș. Sunt student în anul I la UTCN Calculatoare și Tehnologia informației. Sunt pasionat de dezvoltare web, concepte avansate de algoritmică și structuri de date, cu cunoștințe în React, Node.js și Flutter, în căutarea unei oportunități pentru a aplica și dezvolta abilitățile mele tehnice. Am lucrat la proiecte academice și personale, aplicând principii de dezvoltare full-stack și colaborând în echipe de studenți.</p>
           </div>
         </div>
         <div className ="body-details">
           <div className="body-text-left">
-            <h3>Informații personale</h3>
+            <h3>Informații personale:</h3>
             <p>Nume: Nemeș Mihail</p>
             <p>Oraș: CLuj-Napoca, Romania</p>
             <p>Email: mihainemes423@gmail.com</p>
@@ -37,9 +37,18 @@ export default function Body() {
             </div>
           </div>
           <div className = "body-text-right">
-            <h3>Lorem ipsum dolor sit</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis quisquam quaerat optio sed harum, 
-              dolor in culpa rem eaque dolores odit quia aut mollitia ducimus error eos. Reprehenderit, doloremque?</p>
+            <h3>Educație:</h3>
+            <h4>Licență: UTCN (2024 - prezent)</h4>
+            <p>Specializare: Calculatoare și Tehnologia Informației</p>
+            <h4>Liceu: Liceul Teoretic "Lucian Blaga" din Cluj-Napoca (2020 - 2024)</h4>
+            <p>Profil: Mate-Info intensiv engleză</p>
+          </div>
+        </div>
+        <div className ="body-details">
+          <div className='body-text-left'>
+            <h3>Proiecte personale:</h3>
+              <p>Joc de memorie în Flutter: 'buton spre joc' </p>
+              <p>Algoritm min-max cu alpha-bet pruning în C pentru a determina cea mai buna mutare in joc-ul "Path of Exam" (Vezi regulile jocului pe git): 'buton spre joc'</p>
           </div>
         </div>
       </div>
