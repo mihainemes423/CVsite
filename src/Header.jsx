@@ -12,13 +12,13 @@ export default function Header() {
       </div>
 
       <nav className="nav-container">
-        <ul className="nav-list">
+        {/* <ul className="nav-list">
           <li className="nav-item"><a href="#">Home ▼</a></li>
           <li className="nav-item"><a href="#">About</a></li>
           <li className="nav-item"><a href="#">Resume</a></li>
           <li className="nav-item"><a href="#">Portfolio</a></li>
           <li className="nav-item"><a href="#">Contacts</a></li>
-        </ul>
+        </ul> */}
       </nav>
 
       <button className="download-button">
