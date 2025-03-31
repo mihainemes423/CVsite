@@ -8,9 +8,8 @@ function App() {
   return (
     <div className='main-screen'>
       <Header />
-      <img className = "effect" src="../assets/effect.png" />
+      <img className = "effect" src="../src/assets/effect.png" />
       <Body />
-      <img className = "effect2" src="../assets/effect.png" />
     </div>
   )
 }

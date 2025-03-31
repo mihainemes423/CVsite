@@ -1,18 +1,21 @@
 import React from 'react'
 import "../styles/Body.css"
 import RedirectButton from "./components/RedirectButton"
+import firstImage from '../src/assets/first_image.jpg';
 
 export default function Body() {
   return (
     <div>
       <div className="body-section">
         <div className="body-content">
-          <img src="../Assets/first_image.jpg" alt="Descriere imagine" className="body-image" />
+          <img src={firstImage} alt="Descriere imagine" className="body-image" />
+          <img className = "effect2" src="../src/assets/effect.png"/>
           <div className ="body-text-left">
             <h3>Curriculum vitae - Computer engineer</h3>
             <p>Salut, numele meu este Mihail Nemeș. Sunt student în anul I la UTCN Calculatoare și Tehnologia informației. Sunt pasionat de dezvoltare web, concepte avansate de algoritmică și structuri de date, cu cunoștințe în React, Node.js și Flutter, în căutarea unei oportunități pentru a aplica și dezvolta abilitățile mele tehnice. Am lucrat la proiecte academice și personale, aplicând principii de dezvoltare full-stack și colaborând în echipe de studenți.</p>
           </div>
         </div>
+        
         <div className ="body-details">
           <div className="body-text-left">
             <h3>Informații personale:</h3>
@@ -47,7 +50,7 @@ export default function Body() {
         <div className ="body-details">
           <div className='body-text-left'>
             <h3>Proiecte personale:</h3>
-              <p>Joc de memorie în Flutter: <RedirectButton
+              <p>Joc de memorie în Flutter(doar pe PC momentan): <RedirectButton
                 url="https://memory-game-25.web.app/"
                 text="MemoryGame"
                 width="135px"
