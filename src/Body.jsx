@@ -47,8 +47,14 @@ export default function Body() {
         <div className ="body-details">
           <div className='body-text-left'>
             <h3>Proiecte personale:</h3>
-              <p>Joc de memorie în Flutter: 'buton spre joc' </p>
-              <p>Algoritm min-max cu alpha-bet pruning în C pentru a determina cea mai buna mutare in joc-ul "Path of Exam" (Vezi regulile jocului pe git): 'buton spre joc'</p>
+              <p>Joc de memorie în Flutter: <RedirectButton
+                url="https://memory-game-25.web.app/"
+                text="MemoryGame"
+                width="135px"
+                height="20px"
+                fontSize="1em"
+              /> </p>
+              <p>Algoritm min-max cu alpha-bet pruning în C pentru a determina cea mai buna mutare in joc-ul "Path of Exam" (Vezi repo-ul de pe git)</p>
           </div>
         </div>
       </div>
